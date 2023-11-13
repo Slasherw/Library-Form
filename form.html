@@ -14,8 +14,65 @@
     <h1>Library form</h1>
 
     <div>
-        <p class="name">-- Enter your name --</p>
+        <form action="https://slasherw.github.io/Library-Form/" method="post">
+            
+            <p class="name">Enter your name (TH)
+                <input type="text" name="nameth" size="15" maxlength="30" />
+            </p>
 
+            <p class="name">Enter your name (EN)
+                <input type="text" name="nameth" size="15" maxlength="30" />
+            </p>
+
+            <p class="name">Gender
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="lgbt">LGBTQ+
+            </p>
+
+            <p class="name">Student ID
+                <input type="text" name="stu-id" size="15" maxlength="30" />
+            </p>
+            
+            <p class="name">Faculty
+                <select name="Faculty">
+                    <option value="sci">Science and Technology</option>
+                    <option value="law">Law</option>
+                    <option value="commerce">Commerce and Accountancy</option>
+                    <option value="political">Faculty of Political Science</option>
+                    <option value="econ">Economics</option>
+                    <option value="social">Social Work</option>
+                    <option value="anthropology">Sociology and Anthropology</option>
+                    <option value="lang-art">Liberal Arts</option>
+                    <option value="journal">Journalism and Mass Communication</option>
+                    <option value="engineer">Engineering</option>
+                    <option value="architec">Architecture and Urban Planning</option>
+                    <option value="art-art">Fine and Applied Arts</option>
+                    <option value="med">Medicine</option>
+                    <option value="ahs">Allied Health Sciences</option>
+                    <option value="dentis">Dentistry</option>
+                    <option value="nurse">Nursing</option>
+                    <option value="health">Public Health</option>
+                    <option value="pharmacy">Pharmacy</option>
+                    <option value="edu">Sciences and Education</option>
+                </select>
+            </p>
+
+            <p class="name">Email 
+                <input type="email" name="email" />
+            </p>
+
+            <p class="name">Date of Birth
+                <input type="date" name="birthday" />
+            </p>
+
+            <p class="name">Comment
+                <br>
+                <textarea name="comment" cols="30" rows="20">
+                    
+                </textarea>
+            </p>
+        </form>
     </div>
 </body>
 </html>
